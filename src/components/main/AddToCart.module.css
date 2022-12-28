@@ -1,0 +1,34 @@
+.AddToCartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .5rem;
+}
+.AddToCartAmount {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.AddToCartLabel {
+    font-weight: 700;
+}
+.AddToCartInput {
+    width: 100%;
+    max-width: 3rem;
+    padding: .1rem .3rem;
+    border: 1px solid #86868698;
+    font-size: 1rem;
+}
+.AddToCartBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+    max-width: 6rem;
+}
+.AddToCartIcon {
+    font-size: .7rem;
+}

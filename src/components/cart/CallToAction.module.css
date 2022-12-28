@@ -1,0 +1,19 @@
+.CallToAction {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.Close, .Order {
+    padding: .6rem 1.4rem;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
+.Close {
+    background-color: #fff !important;
+    color: #861d1d !important;
+    border: 1px solid #861d1d !important;
+}
+.Close:hover {
+    background-color: #861d1d !important;
+    color: #fff !important;
+}

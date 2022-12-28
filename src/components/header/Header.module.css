@@ -1,0 +1,9 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    background-image: url('../../../public/images/food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

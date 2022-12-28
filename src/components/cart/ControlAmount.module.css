@@ -1,0 +1,19 @@
+.ControlAmount {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.ControlMinus, .ControlPlus {
+    padding: .4rem .9rem;
+    display: flex;
+    border: 1px solid #861d1d;
+    border-radius: .3rem;
+    color: #861d1d;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.ControlMinus:hover, .ControlPlus:hover {
+    background-color: #861d1d;
+    color: #fff;
+}

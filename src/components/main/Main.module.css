@@ -1,0 +1,10 @@
+.MainSection {
+    width: 100%;
+    max-width: 70rem;
+    margin: auto;
+    padding: 1rem;
+}
+.Main {
+    background-color: #fff;
+    padding: 1.5rem;
+}

@@ -1,0 +1,23 @@
+.CartItemDetails {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+.ItemCartTitle {
+    font-size: 1.8rem;
+}
+.ItemPriceDetails {
+    display: flex;
+    gap: .8rem;
+    align-items: flex-end;
+}
+.ItemCartPrice {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #861d1d;
+}
+.ItemCartAmount {
+    border: 1px solid #b6b6b6;
+    background-color: #ebebeb;
+    padding: .1rem .6rem;
+}

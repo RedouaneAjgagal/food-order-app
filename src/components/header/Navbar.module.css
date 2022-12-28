@@ -1,0 +1,14 @@
+.NavbarContainer {
+    background-color: #861d1d;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+}
