@@ -3,10 +3,9 @@ import React, { useContext, useRef } from 'react';
 import { FaPlus } from 'react-icons/fa';
 import Button from '../UI/Button';
 import { itemData } from './Products';
-import CartItemData from '../../store/CartItemsData';
 const AddToCart = (props) => {
     const inputRef = useRef();
-    const { titles, price, id } = useContext(itemData);
+    const { id } = useContext(itemData);
     const generateId = `amount_${id}`
     const addTocartHandler = (e) => {
         e.preventDefault();
