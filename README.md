@@ -25,3 +25,4 @@ User should be able to:
 ## Links
 
 - Source : [Github](https://github.com/RedouaneAjgagal/food-order-app)
+- live: [Live Site](https://willowy-horse-3a751a.netlify.app/)
